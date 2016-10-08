@@ -9,9 +9,6 @@ using namespace std;
 int number = 0;
 std::mutex g_mtxSection;
 
-void threadFunction(void) {
-}
-
 void incrementNumber(void) {
 	++number;
 	cout << "Number: " << number << endl;
