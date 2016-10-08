@@ -28,12 +28,11 @@ void incrementNumberMutex(void) {
 int main() {
 	//This scope block uses regular threads without any type of thread locking or safety
 	{
-		cout << "Threads without making threadsafe" << endl;
+		cout << "Threads without making thread safe" << endl;
 
 		vector<thread> threads;
 
 		for (int i = 0; i < 10; ++i) {
-			//thread t(incrementNumber);
 			threads.push_back(thread(incrementNumber));
 		}
 
@@ -44,12 +43,11 @@ int main() {
 
 	//This scope block uses a method that utilizes mutex for thread safety
 	{
-		cout << "Threads -- threadsafe using mutex" << endl;
+		cout << endl << endl << "Threads -- thread safe using mutex" << endl;
 
 		vector<thread> threads;
 
 		for (int i = 0; i < 10; ++i) {
-			//thread t(incrementNumber);
 			threads.push_back(thread(incrementNumberMutex));
 		}
 
