@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cpp11Threads", "Cpp11Threads\threads.vcxproj", "{E78346C5-B0CB-42DB-BDB9-07B100BA41D8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32Threads", "Win32Threads\Win32Threads.vcxproj", "{9E51D447-982E-4B3E-B754-49E2EF851258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{E78346C5-B0CB-42DB-BDB9-07B100BA41D8}.Release|x64.Build.0 = Release|x64
 		{E78346C5-B0CB-42DB-BDB9-07B100BA41D8}.Release|x86.ActiveCfg = Release|Win32
 		{E78346C5-B0CB-42DB-BDB9-07B100BA41D8}.Release|x86.Build.0 = Release|Win32
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Debug|x64.ActiveCfg = Debug|x64
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Debug|x64.Build.0 = Debug|x64
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Debug|x86.ActiveCfg = Debug|Win32
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Debug|x86.Build.0 = Debug|Win32
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Release|x64.ActiveCfg = Release|x64
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Release|x64.Build.0 = Release|x64
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Release|x86.ActiveCfg = Release|Win32
+		{9E51D447-982E-4B3E-B754-49E2EF851258}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
